@@ -1,0 +1,30 @@
+body{
+    background-color:#fff;
+}
+nav{
+  display: flex;
+  flex-direction: row;  
+  justify-content: center;
+  gap: 2rem;
+}
+nav {
+    text-decoration: none;
+    color:#25533f;
+}
+nav a:hover{
+    color:#ff7bac;
+}
+footer{
+    background-color:#876029;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    width:400px;
+    margin-top:30px;
+}
+footer img{
+    width:50px;
+    height:50px;
+    margin:3px;
+    padding:10px;
+}
